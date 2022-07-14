@@ -15,7 +15,7 @@
 <script>
 </script>
 
-<style>
+<style scoped>
 .my {
   height: 100vh;
   background-color: rgb(218, 218, 218);
@@ -24,7 +24,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 220px;
+  height: 201px;
   background-image: url(../assets/1.jpg);
   background-size: cover;
 }

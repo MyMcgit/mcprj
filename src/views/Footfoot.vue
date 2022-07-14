@@ -11,7 +11,7 @@
       <van-tabbar-item to="/ques">
         <span>问答</span>
         <template #icon="props">
-          <i class="iconfont">&#xe60d;</i>
+          <i class="iconfont">&#xe60e;</i>
         </template></van-tabbar-item
       >
       <van-tabbar-item to="/vedio">
@@ -21,7 +21,7 @@
         </template>
       </van-tabbar-item>
       <van-tabbar-item to="/my">
-        <span>我的</span>
+        <span>未登录</span>
         <template #icon="props">
           <i class="iconfont">&#xe60d;</i>
         </template>
@@ -46,7 +46,7 @@ export default {
 </script>
 
 
-<style >
+<style lang="scss">
 @font-face {
   font-family: "iconfont";
   src: url("../styles/iconfont.woff2?t=1657509285599") format("woff2"),
